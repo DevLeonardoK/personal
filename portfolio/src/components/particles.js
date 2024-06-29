@@ -47,7 +47,7 @@ const ParticlesComponent = (props) => {
         },
         modes: {
           repulse: {
-            distance: 180,
+            distance: 100,
           },
           push: {
             distance: 130,
@@ -60,13 +60,13 @@ const ParticlesComponent = (props) => {
       },
       particles: {
         color: {
-          value: "#FDDA0D",
+          value: "none",
         },
         links: {
-          color: "#ffffff",
+          color: "#ccc",
           distance: 150,
           enable: true,
-          opacity: 0.3,
+          opacity: 0.2,
           width: 1,
         },
         move: {
@@ -76,7 +76,7 @@ const ParticlesComponent = (props) => {
             default: "out",
           },
           random: true,
-          speed: 6,
+          speed: 7,
           straight: false,
         },
         number: {

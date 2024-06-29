@@ -3,11 +3,13 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container-fullscreen">
       <ParticlesComponent id="particles" />
-      <div className="Container">
-        <h2 id="name">Leonardo Kremer</h2>
-        <span id="about">Desenvolvedor back-end e front-end</span>
+
+      <div className="container-info">
+        <h1 id="message-hello"> |HELLO|</h1>
+
+        <span id="message-welcome">WELCOME TO MY PORTFOLIO</span>
       </div>
     </div>
   );
